@@ -1,0 +1,9 @@
+"The dog sat near the window"
+(THE "dog" ONT::NONHUMAN-ANIMAL D1)
+(VERB "sat" ONT::BODY-MOVEMENT-PLACE S1)
+(THE "window" ONT::STRUCTURAL-OPENING W1)
+
+"It cooled itself down"
+(PRO "It" ONT::MAMMAL I2)
+(VERB "cooled" ONT::COOL C1)
+(PRO "itself" ONT::NATURAL-OBJECT I1)

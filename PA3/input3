@@ -1,0 +1,10 @@
+"A police officer stopped me"
+(A "police officer" ONT::POLICE P1)
+(VERB "stopped" ONT::STOP S1)
+(PRO "me" ONT::PERSON M1)
+
+"She gave me a ticket"
+(PRO "She" ONT::FEMALE-PERSON S2)
+(VERB "gave" ONT::GIVING G1)
+(PRO "me" ONT::PERSON M2)
+(A "ticket" ONT::OFFICIAL-DOCUMENT T1)

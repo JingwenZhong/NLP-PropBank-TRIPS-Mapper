@@ -1,0 +1,15 @@
+"Jack walked to the park"
+(NAME "Jack" ONT::PERSON J1)
+(VERB "walked" ONT::SELF-LOCOMOTE W1)
+(THE "park" ONT::REGION-FOR-ACTIVITY P1)
+
+"He met Sam"
+(PRO "He" ONT::MALE-PERSON H1)
+(VERB "met" ONT::MEET M1)
+(NAME "Sam" ONT::PERSON S1)
+
+"He invited him to a party"
+(PRO "He" ONT::MALE-PERSON H2)
+(VERB "invited" ONT::INVITE I1)
+(PRO "him" ONT::MALE-PERSON H3)
+(A "party" ONT::GATHERING-EVENT P2)

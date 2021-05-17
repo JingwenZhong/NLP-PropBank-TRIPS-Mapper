@@ -1,0 +1,24 @@
+"The engineers and the boys joined the competition"
+(THE-SET "The engineers and the boys" ONT::PERSON EB1 (THE-SET "engineers" ONT::PERSON-DEFINED-BY-ACTIVITY E11) (THE-SET "boys" ONT::MALE-PERSON B11))
+(THE "competition" ONT::COMPETE C1)
+
+"The engineers had a huge budget"
+(THE-SET "engineers" ONT::ENGINEER E1)
+(VERB "had" ONT::HAVE H1)
+(A "budget" ONT::BUDGET B1)
+
+"They built a beatiful boat"
+(PRO-SET "They" ONT::PERSON T1)
+(VERB "built" ONT::CREATE B2)
+(A "boat" ONT::VEHICLE B3)
+
+"The boys, in contrast, made a boat with some paper"
+(THE-SET "boys" ONT::MALE-CHILD B4)
+(VERB "made" ONT::CREATE M1)
+(A "boat" ONT::VEHICLE B5)
+(SOME "paper" ONT::MATERIAL P1)
+
+"They lost the competition"
+(PRO-SET "They" ONT::PERSON T2)
+(VERB "lost" ONT::LOSE-COMPETE L1)
+(THE "competition" ONT::COMPETE C2)

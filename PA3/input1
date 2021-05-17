@@ -1,0 +1,18 @@
+"The large dog ate a bone"
+(THE "large dog" ONT::NONHUMAN-ANIMAL D5)
+(VERB "ate" ONT::EAT V5)
+(A "bone" ONT::FOOD B5)
+
+"It choked on the bone"
+(PRO "It" ONT::ANIMAL I5)
+(VERB "choked" ONT::OBSTRUCTED-BREATHING C5)
+(THE "bone" ONT::FOOD B6)
+
+"We pulled the bone out"
+(PRO-SET "We" ONT::PERSON W5)
+(VERB "pull" ONT::PULL P5)
+(THE "bone" ONT::FOOD B7)
+
+"It was so grateful"
+(PRO "It" ONT::ANIMAL I6)
+(VERB "was" ONT::HAVE-PROPERTY V7)

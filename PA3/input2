@@ -1,0 +1,15 @@
+"Jack saw Sam at the party"
+(NAME "Jack" ONT::PERSON J1)
+(VERB "saw" ONT::ACTIVE-PERCEPTION V1)
+(NAME "Sam" ONT::MALE-PERSON S1)
+(THE "party" ONT::GATHERING-EVENT P1)
+
+"Sam gave him a drink"
+(NAME "Sam" ONT::MALE-PERSON S2)
+(VERB "gave" ONT::GIVING V2)
+(PRO "him" ONT::MALE-PERSON H1)
+(A "drink" ONT::BEVERAGES D1)
+
+"It tasted sour"
+(PRO "It" ONT::PHYS-OBJECT I1)
+(VERB "tasted" ONT::ACTIVE-PERCEPTION V3)
